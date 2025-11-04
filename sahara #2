@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Indoramah CCTV</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: white;
+      padding: 30px 10px;
+      text-align: center;
+    }
+    nav {
+      background: #111;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #00bcd4;
+    }
+    section {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .product {
+      background: white;
+      margin: 15px 0;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .product h2 {
+      margin: 0 0 10px;
+    }
+    .btn {
+      display: inline-block;
+      background: #00bcd4;
+      color: white;
+      padding: 10px 15px;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+    .btn:hover {
+      background: #0097a7;
+    }
+    footer {
+      background: #111;
+      color: #ccc;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Indoramah CCTV</h1>
+    <p>Solusi Keamanan Rumah & Bisnis Anda</p>
+  </header>
+
+  <nav>
+    <a href="#beranda">Beranda</a>
+    <a href="#produk">Produk</a>
+    <a href="#tentang">Tentang Kami</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+
+  <section id="beranda">
+    <h2>🔒 Keamanan Dimulai dari Mata yang Waspada</h2>
+    <p>Kami menyediakan berbagai pilihan CCTV terbaik untuk kebutuhan rumah, kantor, dan bisnis Anda. Dengan kualitas kamera tajam, garansi resmi, dan layanan instalasi profesional.</p>
+  </section>
+
+  <section id="produk">
+    <h2>🛠️ Paket CCTV Kami</h2>
+
+    <div class="product">
+      <h2>Paket Rumah 4 Kamera</h2>
+      <p>4 Kamera + DVR + Instalasi + Garansi 1 Tahun</p>
+      <p><b>Rp 3.500.000</b></p>
+      <a href="https://wa.me/6285319355443?text=Halo%20saya%20tertarik%20dengan%20paket%20CCTV%20Rumah%204%20Kamera" class="btn">Pesan Sekarang</a>
+    </div>
+
+    <div class="product">
+      <h2>Paket Kantor 8 Kamera</h2>
+      <p>8 Kamera + DVR + Instalasi + Garansi 2 Tahun</p>
+      <p><b>Rp 6.500.000</b></p>
+      <a href="https://wa.me/6285319355443?text=Halo%20saya%20ingin%20memesan%20paket%20CCTV%20Kantor%208%20Kamera" class="btn">Hubungi Kami</a>
+    </div>
+
+    <div class="product">
+      <h2>Paket Outdoor 2 Kamera</h2>
+      <p>Cocok buat area parkir, toko, dan halaman rumah</p>
+      <p><b>Rp 2.000.000</b></p>
+      <a href="https://wa.me/6285319355443?text=Halo%20saya%20ingin%20tahu%20lebih%20banyak%20tentang%20paket%20Outdoor" class="btn">Cek Detail</a>
+    </div>
+  </section>
+
+  <section id="tentang">
+    <h2>👷 Tentang Kami</h2>
+    <p>Indoramah CCTV berdiri sejak 2020 dan telah dipercaya ratusan pelanggan di seluruh Indonesia. Kami fokus menyediakan produk berkualitas tinggi dengan harga kompetitif serta pelayanan instalasi profesional.</p>
+    <p>✨ Motto kami: <b>"Melihat Lebih Aman, Hidup Lebih Tenang."</b></p>
+  </section>
+
+  <section id="kontak">
+    <h2>📞 Hubungi Kami</h2>
+    <p>📍 Alamat: Jl. Merdeka No. 45, Pacitan</p>
+    <p>📱 WA Admin: <a href="https://wa.me/6285319355443" class="btn">Chat Sekarang</a></p>
+    <p>✉️ Email: indoramah.cctv@gmail.com</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Indoramah Automatic Gate & CCTV | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
